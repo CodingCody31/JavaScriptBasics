@@ -1,0 +1,88 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+background-color: #003366;
+width:1400px;
+height:800px;
+margin:5px;
+padding:10px;
+}
+#header{
+background-color: #ff3333;
+width:1400px;
+height:75px;
+border-radius:10px;
+display:inline-block;
+}
+h1{
+    color:white;
+padding-top:20px;
+padding-bottom:10px;
+padding-left:10px;
+text-align: left;
+font-size:35px;
+}
+#navigation{
+background-color: teal;
+width:225px;
+height:250px;
+border-radius:30px;
+margin-top:20px;
+display:inline-block;
+vertical-align: top;
+overflow:hidden;
+}
+.home_link{
+position:relative;
+color:#00ffcc;
+top: 15px;
+left: 20px;
+}
+.links{
+    position:relative;
+    top:15px;
+    left:40px;
+    color:#00ffcc;
+    max-height:180px;
+    width:750px;
+}
+#main_content{
+background-color: #00091a;
+width:1125px;
+height: 550px;
+display: inline-block;
+margin:20px;
+border-radius:20px;
+}
+.content{
+    position: relative;
+    top:15px;
+    left:15px;
+    color: #BFD7EA;
+    max-width:1100px;
+}
+.list{
+position:relative;
+top: 5px;
+left: 25px;
+color: #BFD7EA;
+max-height: 220px;
+width: 1000px;
+}
+#footer{
+background-color:grey;
+width: 1400px;
+height: 75px;
+border-radius:25px;
+display:inline-block;
+}
+.foot_note{
+    position:relative;
+    top:20px;
+    left:20px;
+    font-size:18px;
+    color:white;
+}
